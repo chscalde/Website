@@ -23,7 +23,7 @@ else
 fi
 
 #Git update
-git add setings/ site/ store_server_code.sh
+git add setings/ sites/ store_server_code.sh
 Date=$(date +"%m-%d-%Y-%H-%M")
 git commit -m "Server code updated automatically on $Date"
 git push
