@@ -15,11 +15,11 @@ fi
 if [[ -d ~/Desktop/Website/setings ]]
 then
     echo "Copying website settings.."
-    cp -R /etc/apache2/sites-enabled ~/Desktop/Website/setings
+    cp -R /etc/apache2/sites-available ~/Desktop/Website/setings
 else
     echo "Creating Folder"
     mkdir ~/Desktop/Website/setings
-    cp -R /etc/apache2/sites-enabled ~/Desktop/Website/setings
+    cp -R /etc/apache2/sites-available ~/Desktop/Website/setings
 fi
 
 #Git update
