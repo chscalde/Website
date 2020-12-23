@@ -2,14 +2,14 @@
 
  echo "Updating repository"
 
-if [[ -d ~/Desktop/Website/site ]]
+if [[ -d ~/Desktop/Website/sites ]]
 then
     echo "Copying website data."
-    cp -R /var/www ~/Desktop/Website/site
+    cp -R /var/www ~/Desktop/Website/sites
 else
     echo "Creating Folder"
-    mkdir ~/Desktop/Website/site
-    cp -R /var/www ~/Desktop/Website/site
+    mkdir ~/Desktop/Website/sites
+    cp -R /var/www ~/Desktop/Website/sites
 fi
 
 if [[ -d ~/Desktop/Website/setings ]]
