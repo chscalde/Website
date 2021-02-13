@@ -1,6 +1,8 @@
 #!/bin/bash
 
- echo "Updating repository"
+
+
+echo "Updating repository" 
 
 if [[ -d ~/Desktop/Website/sites ]]
 then
